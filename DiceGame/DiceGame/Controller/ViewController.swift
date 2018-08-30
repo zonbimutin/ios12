@@ -84,8 +84,16 @@ class ViewController: UIViewController {
         
     }
     
+    // SHAKING
+    override func becomeFirstResponder() -> Bool {
+        return true
+    }
     
-    
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake{
+            randomDicesGenerator()
+        }
+    }
     
     
 }
