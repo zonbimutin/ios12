@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>questions</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Existen animales autótrofos.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>todos los animales son heterótrofos.</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Los líquenes son la unión simbiótica de un hongo y un alga.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>La semilla de la manzana contiene cianuro y es tóxica</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Las arañas son insectos.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>los insectos pertenecen al subfilo de artrópodos hexapoda, mientras que las arañas pertenecen a los cheliceratos. Una de las diferencias principales es la cantidad de patas (ocho en las arañas, seis en los insectos)</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>La flor es un órgano reproductor de las plantas.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>El koala es un oso.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>una de las diferencias principales entre los koalas y los osos es que los primeros son marsupiales.</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>El Vaticano tiene la cantidad de dinero suficiente para acabar con la pobreza mundial dos veces</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Si divides el número de abejas hembra entre el de abejas macho de un panal, se obtiene el número de oro</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>Se optiene apromado el numero pi</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>CO2 es dióxido de carbono.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>O3 es oxígeno.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>O3 es ozono. Oxígeno es O2</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>NaCl es cloruro de sodio.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Fe2O3 es óxido de hierro</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Mg2O es óxido de magnesio</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>Óxido de magnesio es MgO</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>La capital de Corea del Norte es Seúl.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>Seúl es la capital de Corea del Sur. La capital de Corea del Norte es Pionyang.</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Colombia limita con Ecuador, Surinam, Bolivia y Perú.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>Colombia limita con Ecuador, Perú, Brasil, Venezuela y Panamá.</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Egipto se encuentra al Noreste de África.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Todas las palabras agudas llevan tilde.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>sólo llevan tilde las palabras agudas que terminan en n, s o vocal.</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Las palabras graves están acentuadas en la última sílaba.</string>
+			<key>answer</key>
+			<false/>
+			<key>explanation</key>
+			<string>las palabras graves están acentuadas en la anteúltima sílaba.</string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>Todas las palabras esdrújulas llevan tilde.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>question</key>
+			<string>El núcleo del sujeto puede no aparecer en la frase.</string>
+			<key>answer</key>
+			<true/>
+			<key>explanation</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

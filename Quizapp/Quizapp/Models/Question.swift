@@ -9,16 +9,47 @@
 import Foundation
 
 
-class Question {
+class Question : CustomStringConvertible, Codable {
     
-    let questionText : String
+    let question : String
     let answer : Bool
+    let explanation : String
+    
+    /* se utiliza cuando las variables no tienen el mismo formato que la plist 
+    enum CodingKeys : String, CodingKey {
+        case questionText = "Question"
+        case answer = "Answer"
+        case explanation = "Explanation"
+    }
+     */
     
     
-    init(text : String, correctAnswer : Bool) {
-        self.questionText = text
+    
+    
+    var description: String{
+        return """
+        - Qestion:
+        \(question)
+        - Answer: \(answer)
+        - Explanation:
+        \(explanation)
+        
+        """
+    }
+    
+    
+    init(text : String, correctAnswer : Bool, expl : String) {
+        self.question = text
         self.answer = correctAnswer
+        self.explanation = expl
+        
     }
     
 }
+
+struct QuestionsBank : Codable {
+    var questions : [Question]
+    
+}
+
 
