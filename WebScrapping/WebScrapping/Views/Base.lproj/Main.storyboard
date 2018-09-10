@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.13.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="thY-rY-8w9">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.9"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Controller-->
+        <scene sceneID="522-mT-FE3">
+            <objects>
+                <collectionViewController id="thY-rY-8w9" customClass="CollectionViewController" customModule="WebScrapping" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="iHF-kh-Ec8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <inset key="scrollIndicatorInsets" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="apj-aN-q8P">
+                            <size key="itemSize" width="250" height="320"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="16" minY="30" maxX="16" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SongCell" id="pE7-5G-XNz" customClass="SongCell" customModule="WebScrapping" customModuleProvider="target">
+                                <rect key="frame" x="62.5" y="30" width="250" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="250" height="320"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="urI-QR-ZD6">
+                                            <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="250" id="K0q-Qf-OZf"/>
+                                                <constraint firstAttribute="width" constant="250" id="ge1-17-sL5"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xb4-aV-EZs">
+                                            <rect key="frame" x="8" y="258" width="234" height="35"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="35" id="xg9-xZ-F0L"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsi-wB-oFr">
+                                            <rect key="frame" x="0.0" y="293" width="250" height="27"/>
+                                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Xb4-aV-EZs" firstAttribute="trailing" secondItem="pE7-5G-XNz" secondAttribute="trailingMargin" id="18w-hq-f6j"/>
+                                    <constraint firstItem="urI-QR-ZD6" firstAttribute="top" secondItem="pE7-5G-XNz" secondAttribute="top" id="3fN-e5-rst"/>
+                                    <constraint firstItem="Xb4-aV-EZs" firstAttribute="leading" secondItem="pE7-5G-XNz" secondAttribute="leadingMargin" id="5Xt-z2-Pjk"/>
+                                    <constraint firstItem="tsi-wB-oFr" firstAttribute="leading" secondItem="pE7-5G-XNz" secondAttribute="leading" id="H8r-Mw-nzd"/>
+                                    <constraint firstItem="urI-QR-ZD6" firstAttribute="leading" secondItem="pE7-5G-XNz" secondAttribute="leading" id="Ohk-Ed-KzN"/>
+                                    <constraint firstAttribute="trailing" secondItem="urI-QR-ZD6" secondAttribute="trailing" id="QJ8-MF-Si1"/>
+                                    <constraint firstItem="Xb4-aV-EZs" firstAttribute="top" secondItem="urI-QR-ZD6" secondAttribute="bottom" constant="8" id="Uab-ZV-lcR"/>
+                                    <constraint firstAttribute="bottom" secondItem="tsi-wB-oFr" secondAttribute="bottom" id="Xmy-WX-HCq"/>
+                                    <constraint firstAttribute="trailing" secondItem="tsi-wB-oFr" secondAttribute="trailing" id="pu9-9j-33N"/>
+                                    <constraint firstItem="tsi-wB-oFr" firstAttribute="top" secondItem="Xb4-aV-EZs" secondAttribute="bottom" id="yLs-Nv-PBL"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageSong" destination="urI-QR-ZD6" id="GPQ-td-vW9"/>
+                                    <outlet property="labelAutor" destination="tsi-wB-oFr" id="G1v-6A-aIz"/>
+                                    <outlet property="labelSong" destination="Xb4-aV-EZs" id="A6g-ta-JTt"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="thY-rY-8w9" id="Bi5-ge-qxu"/>
+                            <outlet property="delegate" destination="thY-rY-8w9" id="kcF-XJ-sPm"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4nR-DX-9Ut" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.59999999999999" y="20.239880059970016"/>
+        </scene>
+    </scenes>
+</document>
